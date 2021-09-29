@@ -2,23 +2,30 @@
 
 Head:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f42d1f9-c974-432b-9fcb-a4bf7d64697d/Untitled.png)
+![image](https://user-images.githubusercontent.com/83431435/135341512-57a88b99-8c1e-4174-8ba1-4b737cf9497c.png)
+
+### Data Preprocessing:
+
+Missing Values:
+![image](https://user-images.githubusercontent.com/83431435/135341570-50db421d-d872-41f7-adb8-61a7646f0461.png)
 
 NA: Only Date_Order has NA's. Since we cannot fill date with this data we choose deleting NA rows.
 
 Quantiles:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e8d45e1-aeeb-43d1-81bb-c9cf25964939/Untitled.png)
+![image](https://user-images.githubusercontent.com/83431435/135341608-c260838e-544b-4c33-abfe-409517fa4029.png)
 
 Number of categorical, numerical, categoric but cardinals, numerical but categorical columns:
 
 Descriptive statistics for numeric columns:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fae5eae-cfc5-4f14-a984-fd2c545d09eb/Untitled.png)
+![image](https://user-images.githubusercontent.com/83431435/135341759-d1e3024f-e62c-41d0-99f6-2c484115185b.png)
 
 Distribution of classes of categorical columns (First two of them):
+![image](https://user-images.githubusercontent.com/83431435/135341794-91b0ed38-cd60-4f27-a1e9-72cb8f6ac1ec.png)
 
-Although some of the numerical columns seem to have outliers, large numbers of shopping is common in retail industry. When we look for the amounts bought per a transaction, what we see is the amounts are not outliers.
+Although some of the numerical columns seem to have outliers, large numbers of shopping is common in retail industry. When we look for the amounts bought per a transaction, what we see is the amounts are not outliers.![image](https://user-images.githubusercontent.com/83431435/135341839-b59ad362-85ca-4033-bf1f-651fd5894fb1.png)
+
 
 ### New Variables:
 
@@ -55,5 +62,8 @@ NEW_Pay_Per_Unit: Amount paid per unit on each transaction
 Target: Target variable. Has the person continued his shopping habit?
 
 
+### Missing Values:
 It has been observed that there is NA in some values due to division by 0 while creating a variable. Since these values are not structural, they are filled with 0. 
 Order range has NAs: It is due to customers who do not shop for the 2nd time.
+![image](https://user-images.githubusercontent.com/83431435/135341459-9a302d0a-4f77-4d00-bd1a-031332a6ccad.png)
+
