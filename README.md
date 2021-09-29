@@ -23,6 +23,7 @@ Although some of the numerical columns seem to have outliers, large numbers of s
 ### New Variables:
 
 Recency: Number of days between customer's first and last purchase
+
 T: Customer first alive – age from first date of order
 Frequency: Customer's total number of transactions
 Monetary: Money interaction expected from the customer
