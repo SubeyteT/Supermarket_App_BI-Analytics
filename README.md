@@ -1,5 +1,14 @@
 # Supermarket_Chain_BI-Analytics
 
+#### Aim of the project:
+
+### Dataset:
+#### Variables:
+
+
+
+
+
 Head:
 
 ![image](https://user-images.githubusercontent.com/83431435/135341512-57a88b99-8c1e-4174-8ba1-4b737cf9497c.png)
