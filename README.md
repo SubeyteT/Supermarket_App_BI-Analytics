@@ -33,7 +33,8 @@ Descriptive statistics for numeric columns:
 Distribution of classes of categorical columns (First two of them):
 ![image](https://user-images.githubusercontent.com/83431435/135341794-91b0ed38-cd60-4f27-a1e9-72cb8f6ac1ec.png)
 
-Although some of the numerical columns seem to have outliers, large numbers of shopping is common in retail industry. When we look for the amounts bought per a transaction, what we see is the amounts are not outliers.![image](https://user-images.githubusercontent.com/83431435/135341839-b59ad362-85ca-4033-bf1f-651fd5894fb1.png)
+Although some of the numerical columns seem to have outliers, large numbers of shopping is common in retail industry. When we look for the amounts bought per a transaction, what we see is the amounts are not outliers. For example, while 2493 is the hisghest record as an outlier in the variable of NetPrice_Delivered, since products at this price were also found in practice, no action was taken.
+![image](https://user-images.githubusercontent.com/83431435/135341839-b59ad362-85ca-4033-bf1f-651fd5894fb1.png)
 
 
 ### New Variables:
