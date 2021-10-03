@@ -118,9 +118,6 @@ df['NEW_Sale_Rate'] = df['Total_Sale'] / (df['Total_Sale'] + df['NetPrice_Delive
 df.loc[(df['Amount_ofDelivered_Product'] == 0), "NEW_is_cancel"] =  int(1)
 df.loc[(df['Amount_ofDelivered_Product'] != 0), "NEW_is_cancel"] =  int(0)
 
-# shipping fee categorical
-df['Total_Shipping_Fee'] = [1 if x > 0 else 0 for x in df['Total_Shipping_Fee']]
-
 ## Average pay per unit:
 df['NEW_Pay_Per_Unit'] = df['NetPrice_Delivered'] / df['Amount_ofDelivered_Product']
 
