@@ -66,10 +66,10 @@ Now that there are features about the first and second transactions' relationshi
 
 ## Encoding
 
-##### Rare Encoding:
+#### Rare Encoding:
 First I have started with analysing the rare classes of categorical variables. I have used my rare_analyser function for this purpose. There is no need for rare encoding since there aren't any rare classes. 
 
-##### Label & One-Hot Encoding:
+#### Label & One-Hot Encoding:
 Among the categorical variables only 3 variables ['UN_SER_Group', 'Income_Level', 'NEW_day_of_week'] need to be encoded. They all have more than 2 classes, so one-hot encoding is enough. After this operation, there are 47 variables. 
 
 Now there might be some useless variables. Classes having less than %1 frequency may lead us to consider them as useless. Also, there is no need for variables like Customer ID, Order date beacuse, we earned information using them, machine learning algorithms don't learn anything from them. So above mentioned columns are dropped.
